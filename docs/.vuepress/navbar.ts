@@ -105,6 +105,12 @@ export default defineNavbarConfig([
                         icon: 'streamline-ultimate-color:single-woman-home',
                         activeMatch: '^/aboutme/',
                     },
+                    {
+                        text: '友情链接',
+                        link: '/aboutme/friends/',
+                        icon: 'skill-icons:tauri-light',
+                        activeMatch: '^/aboutme/friends/',
+                    },
                 ]
             },
 
