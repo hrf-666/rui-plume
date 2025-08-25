@@ -22,12 +22,13 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  // logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: './logo.png',
 
   appearance: true,  // 配置 深色模式
-
+  // 社交链接
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/hrf-666' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -53,12 +54,14 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'rui-plume',
+    // avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: './logo.png',
+    name: 'rui',
     description: 'rui的个人博客',
-    // circle: true,
-    // location: '',
-    // organization: '',
+    circle: true,
+    location: 'HangZhou,china',
+    organization: '',//组织
+    layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
   },
 
   navbar,
