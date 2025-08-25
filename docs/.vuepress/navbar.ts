@@ -75,23 +75,39 @@ export default defineNavbarConfig([
         icon: 'mingcute:more-3-fill',
         items: [
             {
-                text: '阅读',
-                link: '/read/',
-                icon: 'material-symbols:recommend',
-                activeMatch: '^/read/',
+                text: '导航',
+                items: [
+                    {
+                        text: '程序员导航',
+                        link: '/navigation/',
+                        icon: 'mdi:roadmap',
+                        activeMatch: '^/navigation',
+                    },
+                    {
+                        text: 'AI 模型导航',
+                        link: '/ai/ai/',
+                        icon: 'eos-icons:ai',
+                        activeMatch: '^/ai/ai/',
+                    },]
             },
             {
-                text: '程序员导航',
-                link: '/navigation/',
-                icon: 'mdi:roadmap',
-                activeMatch: '^/navigation',
+                text: '简介',
+                items: [
+                    {
+                        text: '阅读',
+                        link: '/read/',
+                        icon: 'streamline-ultimate-color:app-window-text',
+                        activeMatch: '^/read/',
+                    },
+                    {
+                        text: '关于我',
+                        link: '/aboutme/',
+                        icon: 'streamline-ultimate-color:single-woman-home',
+                        activeMatch: '^/aboutme/',
+                    },
+                ]
             },
-            {
-                text: 'AI 模型导航',
-                link: '/ai/',
-                icon: 'eos-icons:ai',
-                activeMatch: '^/ai/',
-            },
+
         ],
     },
 ])
