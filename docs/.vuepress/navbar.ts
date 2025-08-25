@@ -11,8 +11,32 @@ export default defineNavbarConfig([
   { text: '博客', link: '/blog/' },
   { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },
+  // {
+  //   text: '笔记',
+  //   items: [{ text: '示例', link: '/notes/demo/README.md' }]
+  // },
   {
     text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
+    icon: 'icon-park-solid:bookshelf',
+    items: [
+      {
+        text: 'Java后端面试题',
+        link: '/study-notes/back-end/java/',
+        activeMatch: '^/study-notes/back-end/java/',
+        icon: 'emojione:memo',
+      },
+      {
+        text: 'python',
+        link: '/study-notes/back-end/python/',
+        activeMatch: '^/study-notes/back-end/python/',
+        icon: 'skill-icons:python-light',
+      },
+      {
+        text: 'redis',
+        link: '/study-notes/back-end/redis/',
+        activeMatch: '^/study-notes/back-end/redis/',
+        icon: 'skill-icons:redis-light',
+      },
+    ],
   },
 ])

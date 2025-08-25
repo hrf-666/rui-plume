@@ -16,7 +16,8 @@
 
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import navbar from './navbar'
-import notes from './notes'
+// import notes from './notes'
+import notes from './config/study-notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -66,6 +67,7 @@ export default defineThemeConfig({
 
   navbar,
   notes,
+  // studyNotes,
 
   /**
    * 公告板
