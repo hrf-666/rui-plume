@@ -87,6 +87,7 @@ Identity added: /c/Users/Administrator/.ssh/id_rsa (mmzsblog@163.com)
 ## 三、配置git的ssh key
 
 ### 1、将ssh key配置到github
+
 登录github–>点击头像–>选择"settings"–>选择左侧菜单"SSH and GPG keys"–>点击右上角的"NEW SSH key"–> 新建ssh 链接。
 
 复制key内容:
@@ -99,8 +100,54 @@ TiTle 可随意填写(建议和第一步设置的用户名一致) ；
 Key是第二步生成的 id_rsa.pub文件 的内容全部复制到此处(id_rsa.pub默认在C:\Users\Administrator.ssh目录下)。
 
 ### 2、测试ssh key的配置情况
+
 ```shell
 $ ssh -t git@github.com
 PTY allocation request failed on channel 0
 ```
+
 到这里就配置好了!
+
+## 老遇到开代理时，push时会报kex_exchange_identification
+
+把
+
+```text
+Host github.com
+ HostName ssh.github.com
+ Port 443
+```
+
+加到~/.ssh/config 就好了。
+
+## 找不到config文件
+
+在Windows系统中，如果你在C:\Users\你的用户名\.ssh目录下找不到config文件，你可以通过以下几种方法创建或生成它：
+
+### 方法1：手动创建
+
+1. 打开文件资源管理器。
+2. 导航到C:\Users\你的用户名\.ssh目录。
+3. 右键点击空白处，选择“新建” -> “文本文档”。
+4. 将新建的文本文档重命名为config（确保在重命名时去掉文件扩展名，直接命名为config）。
+5. 打开config文件，你可以开始配置你的SSH设置。
+
+### 方法2：使用Git Bash（如果你安装了Git）
+
+如果你已经安装了Git for Windows，你可以使用Git Bash来生成或编辑config文件。
+
+打开Git Bash。
+
+输入以下命令来创建或打开config文件：
+
+```bash
+nano ~/.ssh/config
+```
+
+或者使用其他文本编辑器，如：
+
+```bash
+notepad ~/.ssh/config
+```
+
+在打开的编辑器中，你可以添加或修改SSH配置。
