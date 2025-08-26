@@ -7,17 +7,17 @@
 import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-    {text: '首页', link: '/'},
-    {text: '博客', link: '/blog/'},
-    {text: '标签', link: '/blog/tags/'},
-    {text: '归档', link: '/blog/archives/'},
+    {text: '首页', link: '/', icon: 'streamline-ultimate-color:award-trophy-1'},
+    {text: '博客', link: '/blog/', icon: 'streamline-ultimate-color:blogger-logo'},
+    {text: '标签', link: '/blog/tags/', icon: 'streamline-ultimate-color:tags-1'},
+    {text: '归档', link: '/blog/archives/', icon: 'streamline-ultimate-color:instagram-logo'},
     // {
     //   text: '笔记',
     //   items: [{ text: '示例', link: '/notes/demo/README.md' }]
     // },
     {
         text: '笔记',
-        icon: 'icon-park-solid:bookshelf',
+        icon: 'streamline-ultimate-color:shelf-books-1',
         items: [
             {
                 text: '后端面经',
@@ -89,7 +89,7 @@ export default defineNavbarConfig([
     },
     {
         text: '更多',
-        icon: 'mingcute:more-3-fill',
+        icon: 'streamline-ultimate-color:navigation-menu-horizontal-1',
         items: [
             {
                 text: '导航',
