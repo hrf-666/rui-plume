@@ -1,6 +1,6 @@
-import config from '@pengzhanbo/eslint-config-vue'
+import eslintConfig from '@pengzhanbo/eslint-config'
 
-export default config({
+export default eslintConfig({
     regexp: false,
     ignores: [],
 }, {
@@ -17,11 +17,5 @@ export default config({
         'ts/no-empty-object-type': 'off',
         'ts/ban-ts-comment': 'off',
         '@typescript-eslint/prefer-literal-enum-member': 'off',
-    },
-}, {
-    files: ['src/1.前端/3.Vue/Vue 原理解析—diff 算法.md/**/*.ts'],
-    rules: {
-        'unicorn/no-new-array': 'off',
-        'no-unmodified-loop-condition': 'off',
     },
 })

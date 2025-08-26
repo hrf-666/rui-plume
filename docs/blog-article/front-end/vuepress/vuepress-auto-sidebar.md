@@ -1,11 +1,7 @@
 ---
 title: VuePress 自动侧边栏
-date: 2020-04-20T16:00:00.000Z
 tags:
-  - VuePress
-categories:
-  - VuePress
-summary: VuePress 自动侧边栏
+  - vuepress
 createTime: 2025/08/25 23:47:03
 permalink: /article/s320nid7/
 ---

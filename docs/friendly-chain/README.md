@@ -1,8 +1,7 @@
 ---
 title: 友链
-lang: en-US
-sidebar: auto
-tags: [友链]
+tags: 
+  - 友链
 ---
 
 #  友链

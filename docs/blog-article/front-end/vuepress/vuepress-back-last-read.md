@@ -2,7 +2,6 @@
 title: VuePress 返回上次阅读
 description: A vuepress plugin to record the last reading
 author: Rui
-date: 2020-06-20T00:00:00.000Z
 tags:
   - vuepress
   - plugin
