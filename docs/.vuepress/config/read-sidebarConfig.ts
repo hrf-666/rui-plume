@@ -1,4 +1,3 @@
-// import {getChildren} from "../utils/vuepress-sidebar-auto";
 export const read_sidebarConfig = [
     {
         text: '书籍',
