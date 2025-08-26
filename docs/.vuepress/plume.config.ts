@@ -67,7 +67,6 @@ export default defineThemeConfig({
 
   navbar,
   notes,
-  // studyNotes,
 
   /**
    * 公告板

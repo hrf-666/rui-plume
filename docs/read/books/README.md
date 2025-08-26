@@ -3,7 +3,7 @@ title: 阅读
 tags:
   - 阅读
 createTime: 2025/08/26 17:29:31
-permalink: /read/
+permalink: /read/zvim9xbc/
 ---
 
 - [《知否》经典台词句子](./classic-sentences/zhifou.md)
