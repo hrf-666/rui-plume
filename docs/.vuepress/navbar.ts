@@ -21,11 +21,12 @@ export default defineNavbarConfig([
         items: [
             {
                 text: '后端面经',
-                items: [{
-                    text: 'Java后端面试题',
-                    link: '/study-notes/back-end/java/',
-                    activeMatch: '^/study-notes/back-end/java/',
-                    icon: 'streamline-ultimate-color:file-java',
+                items: [
+                    {
+                        text: 'Java后端面试题',
+                        link: '/study-notes/back-end/java/',
+                        activeMatch: '^/study-notes/back-end/java/',
+                        icon: 'streamline-ultimate-color:file-java',
                     },
                     {
                         text: 'python',
@@ -43,17 +44,12 @@ export default defineNavbarConfig([
             },
             {
                 text: '前端面经',
-                items: [{
-                    text: 'HTML',
-                    link: '/study-notes/front-end/html/',
-                    activeMatch: '^/study-notes/front-end/html/',
-                    icon: 'streamline-ultimate-color:programming-language-html-5',
-                },
+                items: [
                     {
-                        text: 'Java后端面试题',
-                        link: '/study-notes/front-end/java/',
-                        activeMatch: '^/study-notes/front-end/java/',
-                        icon: 'streamline-ultimate-color:file-java',
+                        text: 'HTML',
+                        link: '/study-notes/front-end/html/',
+                        activeMatch: '^/study-notes/front-end/html/',
+                        icon: 'streamline-ultimate-color:programming-language-html-5',
                     },
                     {
                         text: 'JavaScript',

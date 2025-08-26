@@ -9,9 +9,9 @@ export default defineNoteConfig({
     // 手动配置侧边栏结构
     sidebar: [
         {
-            text: 'Java',
+            // text: 'Java',
             prefix: 'java', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
-            collapsed: true,
+            collapsed: false,
             items: [
                 // 可以混用 string 和 SidebarItem
                 {text: 'JavaSE', link: 'javase.md'},

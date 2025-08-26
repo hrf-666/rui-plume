@@ -9,7 +9,7 @@ export default defineNoteConfig({
     // 手动配置侧边栏结构
     sidebar: [
         {
-            text: 'redis',
+            // text: 'redis',
             prefix: 'redis', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
             collapsed: false,
             link: '/study-notes/back-end/redis/',
