@@ -49,7 +49,9 @@ list=list.stream()
 <List<String>,?>List<String> java.util.stream.Stream.collect(Collector<? super String,?,List<String>>collector)
 ```
 
+```text
 Distinct()只能对于简单的如List<int>等起作用，而对于List<T>不起作用。
+```
 
 方法四：
 对于list的对象的集合
