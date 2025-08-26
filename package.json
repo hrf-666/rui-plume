@@ -31,6 +31,7 @@
     "vuepress-theme-plume": "1.0.0-rc.161"
   },
   "dependencies": {
-    "@pengzhanbo/eslint-config": "^1.36.0"
+    "@pengzhanbo/eslint-config": "^1.36.0",
+    "vuepress-theme-sidebar": "^0.1.0"
   }
 }

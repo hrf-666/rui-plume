@@ -17,7 +17,7 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import navbar from './navbar'
 // import notes from './notes'
-import notes from './config/study-notes'
+import notes from './config/index'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -41,9 +41,9 @@ export default defineThemeConfig({
    */
   // copyright: true,
 
-  // prevPage: true,   // 是否启用上一页链接
-  // nextPage: true,   // 是否启用下一页链接
-  // createTime: true, // 是否显示文章创建时间
+  prevPage: true,   // 是否启用上一页链接
+  nextPage: true,   // 是否启用下一页链接
+  createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
   // footer: {

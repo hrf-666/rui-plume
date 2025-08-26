@@ -26,7 +26,7 @@ export default defineNavbarConfig([
                     link: '/study-notes/back-end/java/',
                     activeMatch: '^/study-notes/back-end/java/',
                     icon: 'streamline-ultimate-color:file-java',
-                },
+                    },
                     {
                         text: 'python',
                         link: '/study-notes/back-end/python/',
@@ -50,6 +50,12 @@ export default defineNavbarConfig([
                     icon: 'streamline-ultimate-color:programming-language-html-5',
                 },
                     {
+                        text: 'Java后端面试题',
+                        link: '/study-notes/front-end/java/',
+                        activeMatch: '^/study-notes/front-end/java/',
+                        icon: 'streamline-ultimate-color:file-java',
+                    },
+                    {
                         text: 'JavaScript',
                         link: '/study-notes/front-end/javaScript/',
                         activeMatch: '^/study-notes/front-end/javaScript/',
@@ -65,6 +71,21 @@ export default defineNavbarConfig([
                     activeMatch: '^/preparation-exams/IntermediateSoftwareDesigner/',
                     icon: 'streamline-ultimate-color:app-window-pie-chart',
                 },]
+            },
+            {
+                text: '开源代码',
+                items: [{
+                    text: '后端Demo',
+                    link: '/code-demo/back-end-code/',
+                    activeMatch: '^/code-demo/back-end-code/',
+                    icon: 'streamline-ultimate-color:archive-books',
+                },
+                    {
+                        text: '前端Demo',
+                        link: '/code-demo/front-end-code/',
+                        activeMatch: '^/code-demo/front-end-code/',
+                        icon: 'streamline-ultimate-color:archive-locker',
+                    },]
             },
 
         ],

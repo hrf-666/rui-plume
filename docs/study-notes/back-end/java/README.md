@@ -4,7 +4,7 @@ tags:
   - java
   - java基础
 createTime: 2025/08/25 22:29:40
-permalink: /study-notes/back-end/12hc0stz/
+permalink: /study-notes/back-end/java/12hc0stz/
 ---
 **系列内容**：
 - [Java SE 篇](javase.md)

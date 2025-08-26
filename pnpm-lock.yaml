@@ -11,6 +11,9 @@ importers:
       '@pengzhanbo/eslint-config':
         specifier: ^1.36.0
         version: 1.36.0(eslint-plugin-vuejs-accessibility@2.4.1(eslint@9.34.0))(eslint@9.34.0)(typescript@5.9.2)
+      vuepress-theme-sidebar:
+        specifier: ^0.1.0
+        version: 0.1.0
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.24
@@ -3362,6 +3365,9 @@ packages:
         optional: true
       swiper:
         optional: true
+
+  vuepress-theme-sidebar@0.1.0:
+    resolution: {integrity: sha512-aPwENy43ADGVLQugk231K9i8qaar0ZJrxhLjYlxJs73x440fBdaj/pzGOl9BsmH1oVzhxp/4PQpBtRjocVKTsA==}
 
   vuepress@2.0.0-rc.24:
     resolution: {integrity: sha512-56O9fAj3Fr1ezngeHDGyp5I1fWxBnP6gaGerjYjPNtr2RteSZtnqL/fQDzmiw5rFpuMVlfOTXESvQjQUlio8PQ==}
@@ -7390,6 +7396,8 @@ snapshots:
       - twikoo
       - typescript
       - universal-cookie
+
+  vuepress-theme-sidebar@0.1.0: {}
 
   vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2)(yaml@2.8.1))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)):
     dependencies:
