@@ -26,6 +26,7 @@ export default defineThemeConfig({
     // 社交链接
     social: [
         {icon: 'github', link: 'https://github.com/hrf-666'},
+        {icon: 'bilibili', link: 'https://www.bilibili.com/'},
     ],
     // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
     // aside: true, // 页内侧边栏， 默认显示在右侧
