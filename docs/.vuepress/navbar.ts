@@ -73,19 +73,6 @@ export default defineNavbarConfig([
                 link: '/code-demo/',
                 activeMatch: '^/code-demo/',
                 icon: 'streamline-ultimate-color:aircraft-hot-air-balloon-2',
-                // items: [{
-                //     text: '后端Demo',
-                //     link: '/code-demo/back-end-code/',
-                //     activeMatch: '^/code-demo/back-end-code/',
-                //     icon: 'streamline-ultimate-color:archive-books',
-                //     },
-                //     {
-                //         text: '前端Demo',
-                //         link: '/code-demo/front-end-code/',
-                //         activeMatch: '^/code-demo/front-end-code/',
-                //         icon: 'streamline-ultimate-color:archive-locker',
-                //     },
-                // ]
             },
 
         ],
@@ -101,13 +88,13 @@ export default defineNavbarConfig([
                     {
                         text: '程序员导航',
                         link: '/navigation/sites',
-                        icon: 'mdi:roadmap',
+                        icon: 'streamline-ultimate-color:maps',
                         activeMatch: '^/navigation/sites',
                     },
                     {
                         text: 'AI 模型导航',
                         link: '/navigation/ai',
-                        icon: 'eos-icons:ai',
+                        icon: 'streamline-ultimate-color:design-file-ai',
                         activeMatch: '^/navigation/ai/',
                     },]
             },
@@ -131,6 +118,12 @@ export default defineNavbarConfig([
                         link: '/aboutme/friends/',
                         icon: 'skill-icons:tauri-light',
                         activeMatch: '^/aboutme/friends/',
+                    },
+                    {
+                        text: '备忘录',
+                        link: '/aboutme/memo/',
+                        icon: 'emojione:memo',
+                        activeMatch: '^/aboutme/memo/',
                     },
                 ]
             },
