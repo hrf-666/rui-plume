@@ -336,8 +336,7 @@ article: false
 <LinkCard
 title="Learn Git Branching"
 href="https://learngitbranching.js.org/?locale=zh_CN"
-description="学习 git 分支"
-/>
+description="学习 git 分支" />
 
 ## 工具
 
@@ -434,36 +433,30 @@ description="学习 git 分支"
   <LinkCard
     title="ApexCharts"
     icon="https://apexcharts.com/wp-content/themes/apexcharts/img/apexcharts-logo-white-trimmed.svg"
-    href="https://apexcharts.com/"
-  />
+    href="https://apexcharts.com/"/>
   <LinkCard title="visx" icon="https://airbnb.io/favicon.ico" href="https://airbnb.io/visx" />
   <LinkCard title="C3.js" icon="https://c3js.org/img/favicon-74acff28.png" href="http://c3js.org/" />
   <LinkCard title="D3" icon="https://d3js.org/logo.svg" href="https://d3js.org/" />
   <LinkCard
     title="G2"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g2.antv.antgroup.com/"
-  />
+    href="https://g2.antv.antgroup.com/" />
   <LinkCard
     title="G2Plot"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g2plot.antv.antgroup.com/"
-  />
+    href="https://g2plot.antv.antgroup.com/" />
   <LinkCard
     title="G6"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g6.antv.antgroup.com/"
-  />
+    href="https://g6.antv.antgroup.com/" />
   <LinkCard
     title="F2"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://f2.antv.vision/zh"
-  />
+    href="https://f2.antv.vision/zh" />
   <LinkCard
     title="X6"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://x6.antv.antgroup.com/en"
-  />
+    href="https://x6.antv.antgroup.com/en" />
 </CardGrid>
 
 ## CDN

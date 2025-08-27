@@ -28,7 +28,7 @@ config:
         link: /blog/
       - title: 备忘录
         icon: streamline-ultimate-color:app-window-bookmark
-        link: /about/memo/
+        link: /aboutme/memo/
         details: 设置备忘录，能够快速定位文档
       - title: 站点导航
         icon: streamline-ultimate-color:maps
