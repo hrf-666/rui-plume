@@ -1,11 +1,13 @@
 ---
 title: AI 模型导航
 createTime: 2025/02/10 09:10:26
-permalink: /ai/
+permalink: /navigation/ai/
 article: false
 ---
 
 ## 国产大模型
+
+### DeepSeek
 
 <LinkCard
 title="深度求索 DeepSeek"
@@ -23,6 +25,8 @@ href="https://www.deepseek.com/"
 
 </LinkCard>
 
+### 通义千问
+
 <LinkCard
 title="通义千问 Qwen"
 icon="https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg"
@@ -39,6 +43,8 @@ href="https://tongyi.aliyun.com"
 
 </LinkCard>
 
+### 商汤
+
 <LinkCard
 title="商汤 SenseChat"
 icon="https://sensechat-ml.aoss.cn-sh-01.sensecoreapi-oss.cn/chat/prod/wb/favicon_ml.png"
@@ -53,6 +59,8 @@ href="https://chat.sensetime.com/"
 - **行业应用**：广泛应用于智慧城市、医疗等领域，支持复杂场景的语义分析。
 
 </LinkCard>
+
+# 文心一言
 
 <LinkCard
 title="文心一言 ERNIE"
@@ -69,6 +77,8 @@ href="https://yiyan.baidu.com"
 
 </LinkCard>
 
+### 星火认知大模型
+
 <LinkCard
 title="星火认知大模型"
 icon="https://xinghuo.xfyun.cn/spark-icon.ico"
@@ -83,6 +93,8 @@ href="https://xinghuo.xfyun.cn/"
 
 </LinkCard>
 
+### 混元大模型
+
 <LinkCard
 title="混元大模型"
 icon="https://xj-psd-1258344703.cos.ap-guangzhou.myqcloud.com/image/hunyuan/brand2024/logo64@3x.png"
@@ -96,6 +108,8 @@ href="https://hunyuan.tencent.com/"
 - **合成数据应用**：通过生成合成数据降低标注成本，加速模型迭代。
 
 </LinkCard>
+
+### 盘古大模型
 
 <LinkCard
 title="盘古大模型"
@@ -126,6 +140,8 @@ href="https://www.zhipuai.cn/"
 
 </LinkCard>
 
+### 360智脑
+
 <LinkCard
 title="360智脑"
 icon="https://p4.ssl.qhimg.com/t110b9a9301d4da7a687593034a.png"
@@ -141,6 +157,8 @@ href="https://ai.360.cn/"
 
 </LinkCard>
 
+### 豆包
+
 <LinkCard
 title="豆包 Doubao"
 icon="https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png"
@@ -155,6 +173,8 @@ href="https://www.doubao.com/chat/"
 - **多语言支持**：支持东南亚、欧洲等多语言场景，助力国际化业务。
 
 </LinkCard>
+
+### Kimi AI
 
 <LinkCard
 title="Kimi AI"
@@ -173,6 +193,8 @@ href="https://kimi.moonshot.cn/"
 
 ## 海外大模型
 
+### OpenAI
+
 <LinkCard
 title="OpenAI"
 icon="https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico"
@@ -188,6 +210,8 @@ href="https://chatgpt.com/"
 - **广泛应用**：集成于 ChatGPT、Microsoft Copilot 等产品，覆盖内容生成、代码编写、教育辅助等领域。
 
 </LinkCard>
+
+### Claude
 
 <LinkCard
 title="Claude"
@@ -205,6 +229,8 @@ href="https://www.anthropic.com/claude"
 
 </LinkCard>
 
+### Gemini
+
 <LinkCard
 title="Gemini"
 icon="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg"
@@ -220,6 +246,8 @@ href="https://gemini.google.com/app"
 - **模型分层**：提供Ultra（超大模型）、Pro（通用模型）、Nano（轻量化）三种版本，适配不同设备需求。
 
 </LinkCard>
+
+### LLaMA
 
 <LinkCard
 title="LLaMA（Meta AI）"
@@ -237,6 +265,8 @@ href="https://www.meta.ai/"
 
 </LinkCard>
 
+### Copilot
+
 <LinkCard
 title="Copilot"
 icon="https://github.githubassets.com/favicons/favicon.svg"
@@ -253,6 +283,8 @@ href="https://github.com/copilot"
 
 </LinkCard>
 
+### Mistral
+
 <LinkCard
 title="Mistral"
 icon="https://chat.mistral.ai/favicon.ico"
@@ -267,6 +299,8 @@ href="https://chat.mistral.ai/chat"
 - **轻量化部署**：模型参数规模适中，适合中小企业和开发者快速集成。
 
 </LinkCard>
+
+### Grok
 
 <LinkCard
 title="Grok"
@@ -283,6 +317,8 @@ href="https://grok.com/"
 
 </LinkCard>
 
+### Stable Diffusion
+
 <LinkCard
 title="Stable Diffusion"
 icon="https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/cfbf5bc5-47d4-4f4a-b133-23bd12a7d7c2/favicon.ico?format=100w"
@@ -298,6 +334,8 @@ href="https://stability.ai/"
 
 </LinkCard>
 
+### Synthesia
+
 <LinkCard
 title="Synthesia"
 icon="https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/664f0f482fa5a4d527d892bc_Favicon-Web-Security%201.png"
@@ -311,6 +349,8 @@ href="https://www.synthesia.io/"
 - **无代码操作**：用户可通过文本输入快速生成视频内容，降低制作门槛。
 
 </LinkCard>
+
+### ElevenLabs语音引擎
 
 <LinkCard
 title="ElevenLabs语音引擎"

@@ -102,7 +102,7 @@ export default defineNavbarConfig([
                     },
                     {
                         text: 'AI 模型导航',
-                        link: '/ai/ai/',
+                        link: '/navigation/ai',
                         icon: 'eos-icons:ai',
                         activeMatch: '^/ai/ai/',
                     },]
