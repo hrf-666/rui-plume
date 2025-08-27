@@ -12,7 +12,6 @@
 
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import navbar from './navbar'
-// import notes from './notes'
 import notes from './config/index'
 import {sidebarConfig} from "./config/sidebar";
 
@@ -43,10 +42,10 @@ export default defineThemeConfig({
     createTime: true, // 是否显示文章创建时间
 
     /* 站点页脚 */
-    // footer: {
-    //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    //   copyright: '',
-    // },
+    footer: {
+      message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+      copyright: 'Copyright © 2025 - present by rui',
+    },
 
     /**
      * @see https://theme-plume.vuejs.press/config/basic/#profile
@@ -72,9 +71,12 @@ export default defineThemeConfig({
      */
     // bulletin: {
     //   layout: 'top-right',
+    //     border: true,
+    //     lifetime: 'session',
     //   contentType: 'markdown',
-    //   title: '公告板标题',
-    //   content: '公告板内容',
+    //   title: '欢迎添加联系我',
+    //   content: '',
+    //     contentFile:'',
     // },
 
     /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
