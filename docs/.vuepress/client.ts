@@ -7,6 +7,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import CustomComponent from './theme/components/Custom.vue'
 
 // import './theme/styles/custom.css'
+import AllFriendContent from "./theme/components/AllFriendContent.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -18,5 +19,7 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+    // 友情链接自定义组件
+    app.component('AllFriendContent', AllFriendContent)
   },
 })

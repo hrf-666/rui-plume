@@ -154,6 +154,22 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/watermark/
      */
     // watermark: true,
+    watermark: {
+      // enabled: false,  // boolean 类型控制是否全局启用
+      enabled: page => true, // function 类型 过滤哪些页面启用水印
+
+      /**
+       * 是否全屏水印，默认为 `true`，
+       * 设置为 `false` 时，水印仅在 内容区域中显示。
+       */
+      fullPage: true,
+
+      /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
+      watermarkOptions: {
+        content: 'rui',
+        // ...
+      }
+    },
 
     /**
      * 评论 comments
