@@ -32,8 +32,11 @@
   },
   "dependencies": {
     "@pengzhanbo/eslint-config": "^1.36.0",
+    "@types/express": "^5.0.3",
     "@vuepress/shiki-twoslash": "2.0.0-rc.112",
+    "@vueuse/core": "^13.8.0",
     "echarts": "^6.0.0",
+    "shiki": "^3.12.0",
     "vuepress-theme-sidebar": "^0.1.0"
   }
 }

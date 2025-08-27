@@ -15,10 +15,26 @@ config:
         - theme: brand
           text: 博客
           link: /blog/
+          icon: streamline-ultimate-color:blogger-logo
         - theme: alt
           text: 备忘录
           link: /aboutme/memo/
-  - type: Custom
+          icon: streamline-ultimate-color:app-window-bookmark
+  - type: features
+    features:
+      - title: 博客 & 文档
+        icon: streamline-ultimate-color:blogger-logo
+        details: 个人博客内涵各种文档
+        link: /blog/
+      - title: 备忘录
+        icon: streamline-ultimate-color:app-window-bookmark
+        link: /about/memo/
+        details: 设置备忘录，能够快速定位文档
+      - title: 站点导航
+        icon: streamline-ultimate-color:maps
+        link: /navigation/sites
+        details: 快速定位到站点
+  #  - type: Custom
   - type: profile
     name: rui
     description: 即使慢，驰而不息，纵会落后，纵会失败，但必须能够到达他所向的目标。
