@@ -6,9 +6,10 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import CustomComponent from './theme/components/Custom.vue'
 
-// import './theme/styles/custom.css'
+import './theme/styles/custom.css'
 import AllFriendContent from "./theme/components/AllFriendContent.vue";
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
+import Custom from "./theme/components/Custom.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -22,6 +23,7 @@ export default defineClientConfig({
     // app.component('CustomComponent', CustomComponent)
     // 友情链接自定义组件
     app.component('RepoCard', RepoCard)
+    app.component('Custom', Custom)
     app.component('AllFriendContent', AllFriendContent)
   },
 })
