@@ -96,7 +96,7 @@ export default defineNavbarConfig([
                 items: [
                     {
                         text: '程序员导航',
-                        link: '/navigation/',
+                        link: '/navigation/sites',
                         icon: 'mdi:roadmap',
                         activeMatch: '^/navigation',
                     },
