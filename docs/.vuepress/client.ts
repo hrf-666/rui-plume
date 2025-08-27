@@ -8,6 +8,7 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import './theme/styles/custom.css'
 import AllFriendContent from "./theme/components/AllFriendContent.vue";
+import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -20,6 +21,7 @@ export default defineClientConfig({
     // your custom components
     // app.component('CustomComponent', CustomComponent)
     // 友情链接自定义组件
+    app.component('RepoCard', RepoCard)
     app.component('AllFriendContent', AllFriendContent)
   },
 })
