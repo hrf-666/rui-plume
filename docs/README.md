@@ -45,7 +45,6 @@ config:
     list:
       - title: 查找
         description: 可以点击顶栏左侧的搜索栏或者使用快捷键 `ctrl + K` 进行笔记内容的搜索.
-        link: /navigation/sites
       - title: 评论
         description: 开启Giscus评论
       - title: 笔记
