@@ -20,6 +20,10 @@ config:
           text: 备忘录
           link: /aboutme/memo/
           icon: streamline-ultimate-color:app-window-bookmark
+        - theme: alt
+          text: b站
+          link: https://www.bilibili.com/
+          icon: streamline-ultimate-color:dribbble-logo
   - type: features
     features:
       - title: 博客 & 文档
