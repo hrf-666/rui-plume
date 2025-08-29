@@ -96,7 +96,19 @@ export default defineNavbarConfig([
                         link: '/navigation/ai',
                         icon: 'streamline-ultimate-color:design-file-ai',
                         activeMatch: '^/navigation/ai/',
-                    },]
+                    },
+                    {
+                        text: 'Command-Line Interface',
+                        link: '/cli/',
+                        icon: 'streamline-ultimate-color:app-window-code',
+                        activeMatch: '^/cli',
+                    },
+                    {
+                        text: '程序员容易发音错误的单词',
+                        link: '/cpwp/',
+                        icon: 'streamline-ultimate-color:car-tool-jumper-cables',
+                    },
+                ]
             },
             {
                 text: '简介',
