@@ -10,6 +10,3 @@ permalink: /study-notes/back-end/
 - [java](./java)
 - [Python](./python)
 
-
-<Vssue :title="$title" />
-

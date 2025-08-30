@@ -11,10 +11,7 @@ export default defineNavbarConfig([
     {text: '博客', link: '/blog/', icon: 'streamline-ultimate-color:blogger-logo'},
     {text: '标签', link: '/blog/tags/', icon: 'streamline-ultimate-color:tags-1'},
     {text: '归档', link: '/blog/archives/', icon: 'streamline-ultimate-color:instagram-logo'},
-    // {
-    //   text: '笔记',
-    //   items: [{ text: '示例', link: '/notes/demo/README.md' }]
-    // },
+    {text: '程序员导航', link: 'https://mouday.github.io/hao123/', icon: 'streamline-ultimate-color:maps'},
     {
         text: '笔记',
         icon: 'streamline-ultimate-color:shelf-books-1',

@@ -15,7 +15,7 @@ import {plumeTheme} from 'vuepress-theme-plume'
 
 export default defineUserConfig({
     base: '/',
-    // base: '/rui-plume/',
+    // base: '/rui-plume/',  //github pages
     lang: 'zh-CN',
     title: 'rui',
     description: 'rui的个人博客',
