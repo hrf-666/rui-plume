@@ -28,7 +28,7 @@ export default defineNoteConfig({
                 {text: '网络', link: 'network.md'},
                 {text: '操作系统', link: 'os'},
                 {text: '2024年Java面试题', link: '2024JavaInterviewQuestions'},
-                {text: '2025年Java面试题', link: '2025Java面试题'},
+                {text: '2025年Java面试场景题', link: '2025Java面试场景题'},
             ],
         },
     ],
