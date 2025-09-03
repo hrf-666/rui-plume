@@ -12,19 +12,20 @@
 import {viteBundler} from '@vuepress/bundler-vite'
 import {defineUserConfig} from 'vuepress'
 import {plumeTheme} from 'vuepress-theme-plume'
+import {pluginsConfig} from "./config/plugins";
+import {headConfig} from "./config/headConfig";
 
 export default defineUserConfig({
+    templateBuild: "",
     base: '/',
     // base: '/rui-plume/',  //github pages
     lang: 'zh-CN',
     title: 'rui',
     description: 'rui的个人博客',
-
-    head: [
-        // 配置站点图标
-        // ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
-        ['link', {rel: 'icon', type: 'image/png', href: './favicon.ico'}],
-    ],
+    // 头文件
+    head: headConfig,
+    // 添加依赖
+    plugins: pluginsConfig,
 
     bundler: viteBundler(),
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
@@ -207,5 +208,5 @@ export default defineUserConfig({
          * @see https://theme-plume.vuejs.press/guide/features/encryption/
          */
         // encrypt: {},
-    }),
+    })
 })

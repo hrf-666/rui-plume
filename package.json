@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-pwa": "^1.9.10",
     "http-server": "^14.1.1",
     "typescript": "^5.9.2",
     "vue": "^3.5.20",

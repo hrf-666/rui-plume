@@ -25,7 +25,7 @@ export default defineThemeConfig({
     appearance: true,  // 配置 深色模式
     // 社交链接
     social: [
-        {icon: 'github', link: 'https://github.com/hrf-666'},
+        {icon: 'github', link: 'https://github.com/'},
         {icon: 'bilibili', link: 'https://www.bilibili.com/'},
     ],
     navbarSocialInclude: ['github','bilibili',"npm"], // 允许显示在导航栏的 social 社交链接
