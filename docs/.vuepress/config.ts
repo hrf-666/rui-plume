@@ -22,10 +22,15 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: 'rui',
     description: 'rui的个人博客',
-    // 头文件
-    head: headConfig,
+    // 头文件 站点配置
+    // head: headConfig,
+    head: [
+        // 配置站点图标
+        // ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+        ['link', {rel: 'icon', type: 'image/png', href: './favicon.ico'}],
+    ],
     // 添加依赖
-    plugins: pluginsConfig,
+    // plugins: pluginsConfig,
 
     bundler: viteBundler(),
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
@@ -165,7 +170,7 @@ export default defineUserConfig({
              * 是否全屏水印，默认为 `true`，
              * 设置为 `false` 时，水印仅在 内容区域中显示。
              */
-            fullPage: true,
+            fullPage: false,
 
             /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
             watermarkOptions: {
