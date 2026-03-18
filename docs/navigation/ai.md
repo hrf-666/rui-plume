@@ -176,7 +176,7 @@ apps: # AI 应用，模型在线对话
     logo: https://aistudio.xiaomimimo.com/favicon.0619b0d2.png
     url: https://aistudio.xiaomimimo.com/
     border: true
-
+ 
 providers: # AI 服务商 （直供）
   - name: 深度求索
     logo: /images/ai/providers/deepseek.png

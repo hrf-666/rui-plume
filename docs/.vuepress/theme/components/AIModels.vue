@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useData } from 'vuepress/client'
+
 interface AIModel {
   name: string
   url: string
@@ -10,6 +12,33 @@ interface AIModel {
 const { list } = defineProps<{
   list: AIModel[]
 }>()
+
+const { site } = useData()
+
+// 处理 logo路径，自动添加 base 路径
+const getLogoPath = (logo: string) => {
+  // 如果是外部链接（http://或 https://开头），直接返回
+  if (logo.startsWith('http://') || logo.startsWith('https://')) {
+    return logo
+  }
+  // 如果是绝对路径（/开头），去掉开头的 / 后拼接 base
+  if (logo.startsWith('/')) {
+    return site.value.base + logo.slice(1)
+  }
+  // 相对路径直接拼接 base
+  return site.value.base + logo
+}
+// 此方式可以删除,因为很笨重
+// 处理图片加载错误，使用默认 logo
+const handleImageError = (event: Event) => {
+  const img = event.target as HTMLImageElement
+  // 如果当前不是默认 logo，才替换为默认 logo
+  if (!img.src.includes('rui-plume')) {
+    img.src = '/rui-plume/images/logo.png'
+  }else {
+    img.src = '/images/logo.png'
+  }
+}
 </script>
 
 <template>
@@ -21,7 +50,13 @@ const { list } = defineProps<{
             padding: item.padding ? `${item.padding}px` : undefined,
           }"
         >
-          <img class="no-view" :src="item.logo" :alt="`${item.name} logo`" loading="lazy">
+          <img
+            class="no-view"
+            :src="getLogoPath(item.logo)"
+            :alt="`${item.name} logo`"
+            loading="lazy"
+            @error="handleImageError"
+          >
         </span>
         <span>{{ item.name }}</span>
       </a>
