@@ -5,7 +5,7 @@ date: 2022-01-09T00:00:00.000Z
 tags:
   - Spring
 createTime: 2025/08/25 22:29:40
-permalink: /article/hb9yit1z/
+permalink: /study-notes/back-end/java/hb9yit1z/
 ---
 [[toc]]
 ## 基础

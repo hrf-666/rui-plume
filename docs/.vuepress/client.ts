@@ -10,6 +10,7 @@ import './theme/styles/custom.css'
 import AllFriendContent from "./theme/components/AllFriendContent.vue";
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 import Custom from "./theme/components/Custom.vue";
+import AIModels from "./theme/components/AIModels.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -25,5 +26,6 @@ export default defineClientConfig({
     app.component('RepoCard', RepoCard)
     app.component('Custom', Custom)
     app.component('AllFriendContent', AllFriendContent)
+    app.component('AIModels', AIModels)
   },
 })

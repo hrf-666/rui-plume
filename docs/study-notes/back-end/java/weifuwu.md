@@ -5,7 +5,7 @@ date: 2022-01-09T00:00:00.000Z
 tags:
   - 微服务
 createTime: 2025/08/25 22:29:40
-permalink: /article/b4h4s2sj/
+permalink: /study-notes/back-end/java/b4h4s2sj/
 ---
 [[toc]]
 ## 概览

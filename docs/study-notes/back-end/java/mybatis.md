@@ -6,7 +6,7 @@ tags:
   - java
   - mybatis
 createTime: 2025/08/25 22:29:40
-permalink: /article/xbyulc87/
+permalink: /study-notes/back-end/java/xbyulc87/
 ---
 [[toc]]
 ## 基础

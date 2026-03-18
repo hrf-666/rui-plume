@@ -3,7 +3,7 @@ title: Redis
 tags:
   - redis
 createTime: 2025/08/25 22:29:40
-permalink: /article/uz4x5ltt/
+permalink: /study-notes/back-end/java/uz4x5ltt/
 ---
 [[toc]]
 ## 基础

@@ -12,8 +12,7 @@
 
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import navbar from './navbar'
-import notes from './config/index'
-import {sidebarConfig} from "./config/sidebar";
+import collections from './collections/index'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -38,9 +37,9 @@ export default defineThemeConfig({
      */
     // copyright: true,
 
-    prevPage: true,   // 是否启用上一页链接
-    nextPage: true,   // 是否启用下一页链接
-    createTime: true, // 是否显示文章创建时间
+    // prevPage: true,   // 是否启用上一页链接
+    // nextPage: true,   // 是否启用下一页链接
+    // createTime: true, // 是否显示文章创建时间
 
     /* 站点页脚 */
     footer: {
@@ -63,8 +62,7 @@ export default defineThemeConfig({
     },
 
     navbar,
-    notes,
-    sidebar: sidebarConfig,
+    collections,
 
     /**
      * 公告板
@@ -86,5 +84,11 @@ export default defineThemeConfig({
     //   postList: true,    // 启用 博客文章列表过渡动画
     //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
     // },
+    // 自动生成
+    // autoFrontmatter: {
+    //     title: true, // 自动生成标题
+    //     createTime: true, // 自动生成创建时间
+    //     permalink: true, // 自动生成永久链接
+    // }
 
 })

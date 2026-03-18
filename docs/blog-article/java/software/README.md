@@ -1,6 +1,9 @@
 ---
 title: 系列文章
-tags: [系列文章]
+tags:
+  - 系列文章
+createTime: 2026/03/15 11:16:25
+permalink: /blog-article/xsd7lfvl/
 ---
 # 系列文章
 ## 软件开发相关

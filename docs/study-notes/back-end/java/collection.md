@@ -6,7 +6,7 @@ sidebar: true
 tags:
   - 集合
 createTime: 2025/08/25 22:29:40
-permalink: /article/x4ed04rn/
+permalink: /study-notes/back-end/java/x4ed04rn/
 ---
 [[toc]]
 ## 引言

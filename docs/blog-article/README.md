@@ -1,6 +1,10 @@
 ---
 title: 博文
-tags: [博文, 笔记]
+tags:
+  - 博文
+  - 笔记
+createTime: 2026/03/15 11:16:25
+permalink: /blog-article/d1dqxl29/
 ---
 # 博文
 

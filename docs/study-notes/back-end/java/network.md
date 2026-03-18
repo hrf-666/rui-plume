@@ -6,7 +6,7 @@ tags:
   - 面试
   - 网络
 createTime: 2025/08/25 22:29:40
-permalink: /article/unsxvqn4/
+permalink: /study-notes/back-end/java/unsxvqn4/
 ---
 [[toc]]
 这次带来的是计算机网络六十二问，三万字，七十图详解，大概是全网最全的计算机网络面试题。

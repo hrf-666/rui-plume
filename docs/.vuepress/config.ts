@@ -16,7 +16,7 @@ import {pluginsConfig} from "./config/plugins";
 import {headConfig} from "./config/headConfig";
 
 export default defineUserConfig({
-    templateBuild: "",
+    // templateBuild: "",
     base: '/',
     // base: '/rui-plume/',  //github pages
     lang: 'zh-CN',
@@ -55,17 +55,17 @@ export default defineUserConfig({
          * @see https://theme-plume.vuejs.press/config/basic/#blog
          */
         // blog: false, // 禁用博客
-        blog: {
-            postList: true, // 是否启用文章列表页
-            tags: true, // 是否启用标签页
-            archives: true, // 是否启用归档页
-            categories: true, // 是否启用分类页
-            postCover: 'right', // 文章封面位置
-            pagination: 15, // 每页显示文章数量
-        },
+        // blog: {
+        //     postList: true, // 是否启用文章列表页
+        //     tags: true, // 是否启用标签页
+        //     archives: true, // 是否启用归档页
+        //     categories: true, // 是否启用分类页
+        //     postCover: 'right', // 文章封面位置
+        //     pagination: 15, // 每页显示文章数量
+        // },
 
         /* 博客文章页面链接前缀 */
-        article: '/article/',
+        // article: '/article/',
 
         /**
          * 编译缓存，加快编译速度
@@ -77,11 +77,11 @@ export default defineUserConfig({
          * 为 markdown 文件自动添加 frontmatter 配置
          * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
          */
-        autoFrontmatter: {
-            permalink: true,  // 是否生成永久链接
-            createTime: true, // 是否生成创建时间
-            title: true,      // 是否生成标题
-        },
+        // autoFrontmatter: {
+        //     permalink: true,  // 是否生成永久链接
+        //     createTime: true, // 是否生成创建时间
+        //     title: true,      // 是否生成标题
+        // },
 
         /* 本地搜索, 默认启用 */
         search: {provider: 'local'},
@@ -162,29 +162,29 @@ export default defineUserConfig({
          * @see https://theme-plume.vuejs.press/guide/features/watermark/
          */
         // watermark: true,
-        watermark: {
-            // enabled: false,  // boolean 类型控制是否全局启用
-            enabled: page => true, // function 类型 过滤哪些页面启用水印
-
-            /**
-             * 是否全屏水印，默认为 `true`，
-             * 设置为 `false` 时，水印仅在 内容区域中显示。
-             */
-            fullPage: false,
-
-            /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
-            watermarkOptions: {
-                content: 'rui',
-                fontColor: '#db58a8'
-                // contentType: 'image',
-                // image: '/weather-sun.svg',
-                // width: 200,
-                // height: 200,
-                // imageWidth: 100,
-                // imageHeight: 100,
-                // ...
-            }
-        },
+        // watermark: {
+        //     // enabled: false,  // boolean 类型控制是否全局启用
+        //     enabled: page => true, // function 类型 过滤哪些页面启用水印
+        //
+        //     /**
+        //      * 是否全屏水印，默认为 `true`，
+        //      * 设置为 `false` 时，水印仅在 内容区域中显示。
+        //      */
+        //     fullPage: false,
+        //
+        //     /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
+        //     watermarkOptions: {
+        //         content: 'rui',
+        //         fontColor: '#db58a8'
+        //         // contentType: 'image',
+        //         // image: '/weather-sun.svg',
+        //         // width: 200,
+        //         // height: 200,
+        //         // imageWidth: 100,
+        //         // imageHeight: 100,
+        //         // ...
+        //     }
+        // },
 
         /**
          * 评论 comments
@@ -212,6 +212,19 @@ export default defineUserConfig({
          * 加密功能
          * @see https://theme-plume.vuejs.press/guide/features/encryption/
          */
-        // encrypt: {},
+        encrypt: {
+            rules: {
+                // // 可以是 md 文件的相对路径，对该文件加密
+                // '前端/基础.md': '123456',
+                // 可以是 文件夹的路径，对该目录下所有文章加密
+                '/encrypt/': '123456',
+                // // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
+                // '/vuepress-theme-plume/': '123456',
+                // // 可以是 具体的某个页面的请求路径，对该页面加密
+                // '/article/f8dnci3/': '123456',
+                // // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
+                // '^/(a|b)/': '123456',
+            }
+        }
     })
 })

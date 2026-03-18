@@ -1,6 +1,9 @@
 ---
 title: mybatis
-tags: [mybatis]
+tags:
+  - mybatis
+createTime: 2026/03/15 11:16:25
+permalink: /blog-article/em6cr1tk/
 ---
 
 # 简介

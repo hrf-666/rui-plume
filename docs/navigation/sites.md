@@ -1,9 +1,18 @@
 ---
 title: 站点导航
 createTime: 2022/11/05 10:39:43
-permalink: /navigation/sites
+permalink: /sites-collect/
 article: false
 ---
+
+## 代码搜索
+
+<iframe
+src="https://grep.app" width="100%" height="400px" frameborder="0"
+style="border:1px solid var(--vp-c-divider); border-radius: 5px; box-shadow: var(--vp-shadow-2);"
+/>
+
+[**Grep.app**](https://grep.app/){.readmore}
 
 ## Runtime
 
@@ -37,6 +46,7 @@ article: false
   <LinkCard title="Alpine" icon="logos:alpinejs-icon" href="https://alpinejs.dev/" />
   <LinkCard title="Qwik" icon="logos:qwik-icon" href="https://qwik.dev/" />
   <LinkCard title="Cycle.js" icon="logos:cyclejs" href="https://cycle.js.org/" />
+  <LinkCard title="Ripplejs" icon="https://www.ripplejs.com/favicon.svg" href="https://www.ripplejs.com/" />
   <LinkCard title="Marko" icon="logos:marko" href="https://markojs.com/" />
   <LinkCard title="Nuejs" icon="https://nuejs.org/favicon.ico" href="https://nuejs.org/" />
   <LinkCard title="Htmx" icon="ph:code-bold" href="https://htmx.org/" />
@@ -71,7 +81,9 @@ article: false
   <LinkCard title="Egg" icon="https://www.eggjs.org/logo.svg" href="https://eggjs.org/" />
   <LinkCard title="Midway" icon="https://midwayjs.org/img/logo.svg" href="https://midwayjs.org/" />
   <LinkCard title="Thinkjs" icon="https://thinkjs.org/static/img/new/logo.png" href="https://thinkjs.org/" />
-  <LinkCard title="Adonis" icon="https://adonisjs.com/icons/favicon-32x32.png" href="https://adonisjs.com/" />
+  <LinkCard title="Adonis" icon="https://adonisjs.com/assets/apple-icon-180x180-9a7N4Jr0.png" href="https://adonisjs.com/" />
+  <LinkCard title="Honojs" icon="https://hono.dev/images/logo.svg" href="https://hono.dev/" />
+  <LinkCard title="Elysia" icon="https://elysiajs.com/assets/elysia.svg" href="https://elysiajs.com/" />
 </CardGrid>
 
 ### 微前端
@@ -118,8 +130,10 @@ article: false
   <LinkCard title="Naive UI" icon="logos:naiveui" href="https://www.naiveui.com/" />
   <LinkCard title="Vant UI" icon="https://fastly.jsdelivr.net/npm/@vant/assets/logo.png" href="https://vant-ui.github.io/vant/" />
   <LinkCard title="vuetify" icon="logos:vuetifyjs" href="https://vuetifyjs.com/" />
-  <LinkCard title="Radix Vue" icon="https://www.radix-vue.com/logo.svg" href="https://www.radix-vue.com/" />
   <LinkCard title="Shadcn Vue" href="https://www.shadcn-vue.com/" />
+  <LinkCard title="Radix Vue" icon="https://www.radix-vue.com/logo.svg" href="https://www.radix-vue.com/" />
+  <LinkCard title="Reka Vue" icon="https://reka-ui.com/logo.svg" href="https://reka-ui.com/" />
+  <LinkCard title="Inspira UI" icon="https://cdn.inspira-ui.com/logo.svg" href="https://github.com/unovue/inspira-ui" />
 </CardGrid>
 
 ---
@@ -129,6 +143,14 @@ article: false
   <LinkCard title="Pinia" icon="logos:pinia" href="https://pinia.vuejs.org/" />
   <LinkCard title="Vue Router" icon="logos:vue" href="https://router.vuejs.org/" />
 </CardGrid>
+
+---
+
+<LinkCard
+title="Vue Testing Library"
+icon="https://testing-library.com/img/octopus-64x64.png"
+href="https://testing-library.com/docs/vue-testing-library/intro/"
+/>
 
 ### React
 
@@ -146,6 +168,7 @@ article: false
   <LinkCard title="Recoil" icon="logos:recoil-icon" href="https://recoiljs.org/" />
   <LinkCard title="MobX" icon="logos:mobx" href="https://mobx.js.org/" />
   <LinkCard title="Zustand" href="https://zustand-demo.pmnd.rs/" />
+  <LinkCard title="Jotai" icon="https://jotai.org/favicon.svg" href="https://jotai.org/" />
 </CardGrid>
 
 ---
@@ -158,6 +181,14 @@ article: false
   <LinkCard title="umijs" href="https://umijs.org/" />
   <LinkCard title="formily" href="https://formilyjs.org/" />
   <LinkCard title="React Dnd" href="https://react-dnd.github.io/" />
+  <LinkCard title="Tanstack Query" icon="https://tanstack.com/favicon-32x32.png"  href="https://tanstack.com/query/" />
+</CardGrid>
+
+---
+
+<CardGrid>
+  <LinkCard title="React Router" icon="logos:react-router" href="https://reactrouter.com/" />
+  <LinkCard title="Tanstack Router" icon="https://tanstack.com/favicon-32x32.png" href="https://tanstack.com/router/" />
 </CardGrid>
 
 ---
@@ -166,6 +197,14 @@ article: false
   <LinkCard title="styled-components" icon="https://styled-components.com/favicon.png" href="https://styled-components.com/" />
   <LinkCard title="emotion" icon="https://emotion.sh/logo-96x96.png" href="https://emotion.sh/docs/introduction" />
 </CardGrid>
+
+---
+
+<LinkCard
+title="React Testing Library"
+icon="https://testing-library.com/img/octopus-64x64.png"
+href="https://testing-library.com/docs/react-testing-library/intro/"
+/>
 
 ---
 
@@ -189,7 +228,9 @@ article: false
     href="https://iconpark.oceanengine.com/"
   />
   <LinkCard title="Lucide Icon" icon="https://lucide.dev/logo.light.svg" href="https://lucide.dev/" />
+  <LinkCard title="Lucide Animated" icon="https://lucide-animated.com/icon" href="https://lucide-animated.com/" />
   <LinkCard title="Simple Icons" icon="https://simpleicons.org/logo-fc26614b48c3f1fd.svg" href="https://simpleicons.org/" />
+  <LinkCard title="MingCute Icon" icon="https://www.mingcute.com/favicon.ico" href="https://www.mingcute.com/" />
   <LinkCard title="Font Awesome" icon="https://fontawesome.com/images/favicon/icon.svg" href="https://fontawesome.com/" />
   <LinkCard
     title="Bootstrap Icons"
@@ -336,7 +377,8 @@ article: false
 <LinkCard
 title="Learn Git Branching"
 href="https://learngitbranching.js.org/?locale=zh_CN"
-description="学习 git 分支" />
+description="学习 git 分支"
+/>
 
 ## 工具
 
@@ -412,6 +454,8 @@ description="学习 git 分支" />
   <LinkCard title="storybook" icon="logos:storybook-icon" href="https://storybook.js.org/" />
   <LinkCard title="vitest" icon="logos:vitest" href="https://vitest.dev/" />
   <LinkCard title="cypress" icon="logos:cypress-icon" href="https://cypress.io/" />
+  <LinkCard title="puppeteer" icon="logos:puppeteer" href="https://pptr.dev"/>
+  <LinkCard title="playwright" icon="logos:playwright" href="https://playwright.dev/" />
   <LinkCard title="jest" icon="logos:jest" href="https://jestjs.io/" />
   <LinkCard title="mocha" icon="logos:mocha" href="https://mochajs.org/" />
   <LinkCard title="ava" icon="logos:ava" href="https://avajs.dev/" />
@@ -433,30 +477,36 @@ description="学习 git 分支" />
   <LinkCard
     title="ApexCharts"
     icon="https://apexcharts.com/wp-content/themes/apexcharts/img/apexcharts-logo-white-trimmed.svg"
-    href="https://apexcharts.com/"/>
+    href="https://apexcharts.com/"
+  />
   <LinkCard title="visx" icon="https://airbnb.io/favicon.ico" href="https://airbnb.io/visx" />
   <LinkCard title="C3.js" icon="https://c3js.org/img/favicon-74acff28.png" href="http://c3js.org/" />
   <LinkCard title="D3" icon="https://d3js.org/logo.svg" href="https://d3js.org/" />
   <LinkCard
     title="G2"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g2.antv.antgroup.com/" />
+    href="https://g2.antv.antgroup.com/"
+  />
   <LinkCard
     title="G2Plot"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g2plot.antv.antgroup.com/" />
+    href="https://g2plot.antv.antgroup.com/"
+  />
   <LinkCard
     title="G6"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://g6.antv.antgroup.com/" />
+    href="https://g6.antv.antgroup.com/"
+  />
   <LinkCard
     title="F2"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://f2.antv.vision/zh" />
+    href="https://f2.antv.vision/zh"
+  />
   <LinkCard
     title="X6"
     icon="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original"
-    href="https://x6.antv.antgroup.com/en" />
+    href="https://x6.antv.antgroup.com/en"
+  />
 </CardGrid>
 
 ## CDN

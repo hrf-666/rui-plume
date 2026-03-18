@@ -5,7 +5,7 @@ date: 2022-01-09T00:00:00.000Z
 tags:
   - 操作系统
 createTime: 2025/08/25 22:29:40
-permalink: /article/hmsmv068/
+permalink: /study-notes/back-end/java/hmsmv068/
 ---
 [[toc]]
 

@@ -8,9 +8,9 @@ import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
     {text: '首页', link: '/', icon: 'streamline-ultimate-color:award-trophy-1'},
-    {text: '博客', link: '/blog/', icon: 'streamline-ultimate-color:blogger-logo'},
-    {text: '标签', link: '/blog/tags/', icon: 'streamline-ultimate-color:tags-1'},
-    {text: '归档', link: '/blog/archives/', icon: 'streamline-ultimate-color:instagram-logo'},
+    {text: '博客', link: '/blog-article/', icon: 'streamline-ultimate-color:blogger-logo'},
+    // {text: '标签', link: '/blog-article/tags/', icon: 'streamline-ultimate-color:tags-1'},
+    // {text: '归档', link: '/blog-article/archives/', icon: 'streamline-ultimate-color:instagram-logo'},
     {text: '程序员导航', link: 'https://mouday.github.io/hao123/', icon: 'streamline-ultimate-color:maps'},
     {
         text: '笔记',
@@ -133,6 +133,12 @@ export default defineNavbarConfig([
                         link: '/aboutme/memo/',
                         icon: 'emojione:memo',
                         activeMatch: '^/aboutme/memo/',
+                    },
+                    {
+                        text: '加密文',
+                        link: '/encrypt/',
+                        icon: 'emojione:locked-with-key',
+                        activeMatch: '^/encrypt/',
                     },
                 ]
             },

@@ -5,7 +5,7 @@ date: 2022-01-09T00:00:00.000Z
 tags:
   - RocketMQ
 createTime: 2025/08/25 22:29:40
-permalink: /article/yitx7rhl/
+permalink: /study-notes/back-end/java/yitx7rhl/
 ---
 [[toc]]
 ## 基础

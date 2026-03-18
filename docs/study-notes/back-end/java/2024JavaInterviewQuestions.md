@@ -3,7 +3,7 @@ title: 2024版Java面试真题
 tags:
   - 2024版Java面试真题
 createTime: 2025/08/25 22:29:40
-permalink: /article/56fwoqbr/
+permalink: /study-notes/back-end/java/56fwoqbr/
 ---
 [[toc]]
 
