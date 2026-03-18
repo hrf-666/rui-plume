@@ -1,7 +1,7 @@
 ---
 title: AI 导航
 createTime: 2025/02/10 09:10:26
-permalink: /ai/
+permalink: /navigation/ai/
 article: false
 
 apps: # AI 应用，模型在线对话
