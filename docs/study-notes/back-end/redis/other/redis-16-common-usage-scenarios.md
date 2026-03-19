@@ -1,10 +1,10 @@
----
+﻿---
 title: Redis16个常见使用场景
 tags:
   - redis
   - 数据库
 createTime: 2025/08/25 22:29:40
-permalink: /article/3dprqoct/
+permalink: /study-notes/back-end/redis/671121b4/
 ---
 [[toc]]
 

@@ -1,11 +1,11 @@
----
+﻿---
 title: Window下Redis的安装和部署详细图文教程（Redis的安装和可视化工具的使用）
 tags:
   - redis
   - 数据库
   - window
 createTime: 2025/08/25 22:29:40
-permalink: /article/2hbdggxo/
+permalink: /study-notes/back-end/redis/7ae363f0/
 ---
 [[toc]]
 # Window下Redis的安装和部署详细图文教程（Redis的安装和可视化工具的使用）

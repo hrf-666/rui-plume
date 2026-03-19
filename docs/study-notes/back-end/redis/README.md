@@ -1,6 +1,6 @@
 ---
 pageLayout: home
-title: redis
+title: Redis
 createTime: 2025/05/22 20:07:52
 icon: skill-icons:redis-dark
 permalink: /study-notes/back-end/redis/
@@ -17,7 +17,7 @@ config:
         height: 128
       actions:
         - text: 开始学习 →
-          link: /article/jlnc52z6/
+          link: /study-notes/back-end/redis/c3ea6d27/
 ---
 
 <style>

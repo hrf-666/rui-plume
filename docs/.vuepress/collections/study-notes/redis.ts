@@ -55,9 +55,9 @@ export default defineCollection({
             items: 'auto'
         },
     ],
-    autoFrontmatter: {
-        title: true, // 自动生成标题
-        createTime: true, // 自动生成创建时间
-        permalink: 'filepath', // 自动生成永久链接
-    }
+    // autoFrontmatter: {
+    //     title: true, // 自动生成标题
+    //     createTime: true, // 自动生成创建时间
+    //     permalink: 'filepath', // 自动生成永久链接
+    // }
 })
