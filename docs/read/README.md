@@ -16,7 +16,7 @@ config:
         width: 128
         height: 128
       actions:
-        - text: 开始学习 →
+        - text: 进入 →
           link: /read/ee3c1852/
 ---
 
