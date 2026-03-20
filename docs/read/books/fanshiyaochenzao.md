@@ -1,4 +1,4 @@
----
+﻿---
 title: 《凡事要趁早》
 date: 2021-09-20T16:00:00.000Z
 tags:
@@ -7,7 +7,7 @@ categories:
   - 读书笔记
 description: 读《凡事要趁早》的笔记
 createTime: 2025/08/25 23:47:03
-permalink: /article/c1othxi2/
+permalink: /read/824f4eb0/
 ---
 ## 凡事要趁早
 ### 作者简介

@@ -1,4 +1,4 @@
----
+﻿---
 title: 《甄嬛传》
 date: 2021-04-20T20:50:00.000Z
 tags:
@@ -7,7 +7,7 @@ categories:
   - 读书笔记
 description: 《甄嬛传》
 createTime: 2025/08/25 23:47:03
-permalink: /article/var6ffnv/
+permalink: /read/c70c10fc/
 ---
 
 # 《甄嬛传》

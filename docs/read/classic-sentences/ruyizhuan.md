@@ -1,4 +1,4 @@
----
+﻿---
 title: 《如懿传》
 date: 2021-04-12T16:56:00.000Z
 tags:
@@ -8,7 +8,7 @@ categories:
   - 小说
 description: 《如懿传》
 createTime: 2025/08/25 23:47:03
-permalink: /article/n46lbhr7/
+permalink: /read/a2bbb2cf/
 ---
 ## 如懿传
 1.“眼前人已非彼时人，两两相望，唯余失望。”

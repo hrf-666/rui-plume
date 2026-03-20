@@ -1,4 +1,4 @@
----
+﻿---
 title: 《知否》
 date: 2021-04-12T07:15:18.000Z
 tags:
@@ -6,7 +6,7 @@ tags:
   - 读书
   - 读书笔记
 createTime: 2025/08/25 23:47:03
-permalink: /article/c80ycuqs/
+permalink: /read/ee3c1852/
 ---
 [[toc]]
 

@@ -1,6 +1,6 @@
 ---
 pageLayout: home
-title: Redis
+title: redis
 createTime: 2025/05/22 20:07:52
 icon: skill-icons:redis-dark
 permalink: /study-notes/back-end/redis/
