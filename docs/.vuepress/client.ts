@@ -8,9 +8,12 @@ import { defineClientConfig } from 'vuepress/client'
 
 import './theme/styles/custom.css'
 import AllFriendContent from "./theme/components/AllFriendContent.vue";
+import PageContextMenu from 'vuepress-theme-plume/features/PageContextMenu.vue'
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 import Custom from "./theme/components/Custom.vue";
 import AIModels from "./theme/components/AIModels.vue";
+import {Layout} from "vuepress-theme-plume/client";
+import {h} from "vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -27,5 +30,11 @@ export default defineClientConfig({
     app.component('Custom', Custom)
     app.component('AllFriendContent', AllFriendContent)
     app.component('AIModels', AIModels)
+  },
+  layouts: {
+    Layout: h(Layout, null, {
+      // 'aside-top': () => h(Qiniu),
+      'doc-title-after': () => h(PageContextMenu),
+    }),
   },
 })

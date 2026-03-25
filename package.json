@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-llms": "2.0.0-rc.123",
     "@vuepress/plugin-pwa": "2.0.0-rc.125",
     "@vuepress/shiki-twoslash": "2.0.0-rc.123",
     "cross-env": "^10.1.0",

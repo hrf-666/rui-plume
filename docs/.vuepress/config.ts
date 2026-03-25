@@ -225,6 +225,17 @@ export default defineUserConfig({
                 // // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
                 // '^/(a|b)/': '123456',
             }
-        }
-    })
+        },
+        // 使用主题内置的默认配置不建议使用
+        // llmstxt: true,
+
+        // 使用自定义配置
+        llmstxt: {
+            llmsTxtTemplateGetter: {
+                details: '',
+                description: '瑞瑞的个人博客，知识库',
+            },
+        },
+    }),
+
 })

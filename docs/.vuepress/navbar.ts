@@ -11,7 +11,7 @@ export default defineNavbarConfig([
     {text: '博客', link: '/blog-article/', icon: 'streamline-ultimate-color:blogger-logo'},
     // {text: '标签', link: '/blog-article/tags/', icon: 'streamline-ultimate-color:tags-1'},
     // {text: '归档', link: '/blog-article/archives/', icon: 'streamline-ultimate-color:instagram-logo'},
-    {text: '程序员导航', link: 'https://mouday.github.io/hao123/', icon: 'streamline-ultimate-color:maps'},
+    // {text: '程序员导航', link: 'https://mouday.github.io/hao123/', icon: 'streamline-ultimate-color:maps'},
     {
         text: '笔记',
         icon: 'streamline-ultimate-color:shelf-books-1',
@@ -36,6 +36,12 @@ export default defineNavbarConfig([
                         link: '/study-notes/back-end/redis/',
                         activeMatch: '^/study-notes/back-end/redis/',
                         icon: 'skill-icons:redis-light',
+                    },
+                    {
+                        text: 'AI',
+                        link: '/study-notes/back-end/ai/',
+                        activeMatch: '^/study-notes/back-end/ai/',
+                        icon: 'skill-icons:tailwindcss-dark',
                     },
                 ]
             },

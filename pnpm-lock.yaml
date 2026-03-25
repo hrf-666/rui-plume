@@ -36,6 +36,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.26
         version: 2.0.0-rc.26(@types/node@25.5.0)(terser@5.46.0)(typescript@5.9.3)(yaml@2.8.2)
+      '@vuepress/plugin-llms':
+        specifier: 2.0.0-rc.123
+        version: 2.0.0-rc.123(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.5.0)(terser@5.46.0)(typescript@5.9.3)(yaml@2.8.2))(typescript@5.9.3)(vue@3.5.30(typescript@5.9.3)))
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.125
         version: 2.0.0-rc.125(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.5.0)(terser@5.46.0)(typescript@5.9.3)(yaml@2.8.2))(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.5.0)(terser@5.46.0)(typescript@5.9.3)(yaml@2.8.2))(typescript@5.9.3)(vue@3.5.30(typescript@5.9.3)))
