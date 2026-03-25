@@ -41,7 +41,7 @@ export default defineNavbarConfig([
                         text: 'AI',
                         link: '/study-notes/back-end/ai/',
                         activeMatch: '^/study-notes/back-end/ai/',
-                        icon: 'skill-icons:tailwindcss-dark',
+                        icon: 'logos:airbnb-icon',
                     },
                 ]
             },
