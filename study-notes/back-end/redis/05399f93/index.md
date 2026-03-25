@@ -1,0 +1,14 @@
+---
+url: /rui-plume/study-notes/back-end/redis/05399f93/index.md
+---
+# 纯缓存模式
+
+### 同时关闭RDB+AOF，专心做缓存
+
+1. save ""  -- 禁用RDB
+
+   禁用RDB持久化模式下，我们仍然可以使用命令save、bgsave生成RDB文件
+
+2. appendonly no  -- 禁用AOF
+
+   禁用AOF持久化模式下，我们仍然可以使用命令bgrewriteaof生成AOF文件

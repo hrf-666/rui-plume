@@ -1,0 +1,166 @@
+# rui
+
+瑞瑞的个人博客，知识库
+
+## Table of Contents
+
+### 博客
+
+- [VuePress 返回上次阅读](/rui-plume/article/1an4vaoe/index.md): A vuepress plugin to record the last reading
+- [简历](/rui-plume/article/2e25q7zu/index.md)
+- [基于SpringBoot IP黑白名单的实现](/rui-plume/article/2w2ljf4m/index.md): 基于SpringBoot IP黑白名单的实现
+- [基础介绍](/rui-plume/article/3vcf98z1/index.md)
+- [VuePress 修复全局搜索问题](/rui-plume/article/4x21hafm/index.md): 修复全局搜索问题
+- [Redis16个常见使用场景](/rui-plume/article/50dsda7k/index.md)
+- [easyui-tree-combotree去掉默认图标或更换图标](/rui-plume/article/6s3tcpwq/index.md)
+- [derby数据库基本语法](/rui-plume/article/7fabqrma/index.md)
+- [Window下Redis的安装和部署详细图文教程（Redis的安装和可视化工具的使用）](/rui-plume/article/7t5tg2p0/index.md)
+- [Integer类型在mapper.xml中正确判断](/rui-plume/article/8lrnm0ya/index.md)
+- [Stream流提取对象集合的id组成新的集合](/rui-plume/article/9ayqatfs/index.md)
+- [VuePress 樱花插件的使用](/rui-plume/article/9s655a2h/index.md): vuepress-sakura-plugin
+- [picGo+gitee设置图床](/rui-plume/article/aod5h2g3/index.md)
+- [xlsx.full JS上传(导入,导出)Excel 源码](/rui-plume/article/bs1igkf8/index.md): xlsx.full JS上传(导入,导出)Excel 源码
+- [判断数组对象中某一属性是否包含重复的值](/rui-plume/article/dl7nt4eq/index.md)
+- [VuePress 自定义导航页面](/rui-plume/article/g6d16psb/index.md): VuePress 自定义导航页面
+- [Navicat Premium 16安装教程](/rui-plume/article/gor5yxl4/index.md)
+- [VuePress 右侧目录栏插件](/rui-plume/article/gz9jh4ed/index.md): VuePress 右侧目录栏插件
+- [计算机系统知识](/rui-plume/article/h7qlg8tw/index.md)
+- [mybatis查询条件List集合、map集合、Array数组](/rui-plume/article/iwqwtdv5/index.md)
+- [初识python](/rui-plume/article/j6zuxnxa/index.md)
+- [IDEA配置Maven（详细版）](/rui-plume/article/j8tb4v3j/index.md): IDEA配置Maven（详细版）
+- [mybatis查询返回List集合、map集合、List＜Map＞集合](/rui-plume/article/lg8p9v87/index.md)
+- [list集合（String字符串）去重的三种方式](/rui-plume/article/lvzxx7f6/index.md): list集合（String字符串）去重的三种方式
+- [MySQL的基本用法](/rui-plume/article/lzwy62hn/index.md)
+- [VuePress 加载网络图片](/rui-plume/article/mfwj2hb4/index.md)
+- [基础介绍](/rui-plume/article/n2mbl1kc/index.md)
+- [MAVEN的安装与配置教程](/rui-plume/article/n89os08e/index.md): MAVEN的安装与配置教程
+- [Java JDK下载安装及环境配置超详细图文教程](/rui-plume/article/qlkbej7p/index.md): Java JDK下载安装及环境配置超详细图文教程
+- [VuePress 自动侧边栏](/rui-plume/article/s320nid7/index.md)
+- [SSH连接GitHub并配置ssh key](/rui-plume/article/s4xd4blb/index.md)
+- [VuePress 兼容PWA](/rui-plume/article/sdt6ghm7/index.md)
+- [github推送代码时报错port 443](/rui-plume/article/svp0qa0r/index.md)
+- [Java - byte[] 和 String互相转换](/rui-plume/article/t5x6tykd/index.md): Java - byte[] 和 String互相转换
+- [MySQL安装](/rui-plume/article/tjg40rgq/index.md)
+- [看完这篇大总结，彻底掌握Redis的使用](/rui-plume/article/uk7pglhs/index.md)
+- [mybatis Mapper.xml类型判断](/rui-plume/article/us5bxdwb/index.md)
+- [Python 基础](/rui-plume/article/usibddku/index.md)
+
+### java
+
+- [JavaSE](/rui-plume/study-notes/back-end/java/naomdxkg/index.md)
+- [Java集合](/rui-plume/study-notes/back-end/java/x4ed04rn/index.md)
+- [Java线程](/rui-plume/study-notes/back-end/java/4vrvnjby/index.md)
+- [MyBatis](/rui-plume/study-notes/back-end/java/xbyulc87/index.md)
+- [MySQL](/rui-plume/study-notes/back-end/java/yhh38o5y/index.md)
+- [Redis](/rui-plume/study-notes/back-end/java/uz4x5ltt/index.md)
+- [分布式理论](/rui-plume/study-notes/back-end/java/j0ozh5c0/index.md)
+- [JVM](/rui-plume/study-notes/back-end/java/t46n0rau/index.md)
+- [RocketMQ](/rui-plume/study-notes/back-end/java/yitx7rhl/index.md)
+- [Spring](/rui-plume/study-notes/back-end/java/hb9yit1z/index.md)
+- [微服务](/rui-plume/study-notes/back-end/java/b4h4s2sj/index.md)
+- [计算机网络面试题](/rui-plume/study-notes/back-end/java/unsxvqn4/index.md)
+- [操作系统](/rui-plume/study-notes/back-end/java/hmsmv068/index.md)
+- [2024版Java面试真题](/rui-plume/study-notes/back-end/java/56fwoqbr/index.md)
+- [2025版Java面试场景题](/rui-plume/study-notes/back-end/java/56fwoqbl/index.md)
+
+### redis
+
+- [redis](/rui-plume/study-notes/back-end/redis/index.md)
+- [1.Redis入门概述](/rui-plume/study-notes/back-end/redis/c3ea6d27/index.md)
+- [3.Redis7卸载步骤](/rui-plume/study-notes/back-end/redis/375e3374/index.md)
+- [1.Redis安装配置](/rui-plume/study-notes/back-end/redis/395f2444/index.md)
+- [2.Redis7安装步骤](/rui-plume/study-notes/back-end/redis/d9e4134a/index.md)
+- [5.Redis列表(List)](/rui-plume/study-notes/back-end/redis/1832e809/index.md)
+- [7.Redis集合(Set)](/rui-plume/study-notes/back-end/redis/1a332962/index.md)
+- [13.Redis位域(bitfield)](/rui-plume/study-notes/back-end/redis/20fe983a/index.md)
+- [2.redis键(key)](/rui-plume/study-notes/back-end/redis/2af86b2c/index.md)
+- [1.10大数据类型](/rui-plume/study-notes/back-end/redis/73c49fe4/index.md)
+- [10.Redis基数统计(HyperLogLog)](/rui-plume/study-notes/back-end/redis/a600ca1b/index.md)
+- [3.数据类型命令及落地运用](/rui-plume/study-notes/back-end/redis/b5bb96ee/index.md)
+- [11.Redis地理空间(GEO)](/rui-plume/study-notes/back-end/redis/b5e840fb/index.md)
+- [9.Redis位图(bitmap)](/rui-plume/study-notes/back-end/redis/c6bff8b3/index.md)
+- [12.Redis流(Stream)](/rui-plume/study-notes/back-end/redis/d965d597/index.md)
+- [4.Redis字符串(String)](/rui-plume/study-notes/back-end/redis/e646b988/index.md)
+- [8.Redis有序集合Zset(sorted set)](/rui-plume/study-notes/back-end/redis/f926c80f/index.md)
+- [6.Redis哈希(Hash)](/rui-plume/study-notes/back-end/redis/fa143d7e/index.md)
+- [10纯缓存模式](/rui-plume/study-notes/back-end/redis/05399f93/index.md)
+- [4.RDB优劣](/rui-plume/study-notes/back-end/redis/394d42b5/index.md)
+- [6.AOF(Append Only File)](/rui-plume/study-notes/back-end/redis/46a8b0d1/index.md)
+- [9.RDB-AOF混合持久化](/rui-plume/study-notes/back-end/redis/4fd3d1f1/index.md)
+- [5.RDB快照文件](/rui-plume/study-notes/back-end/redis/5e5f50dc/index.md)
+- [1.总体介绍](/rui-plume/study-notes/back-end/redis/78438226/index.md)
+- [7.AOF案例演示和优劣对比](/rui-plume/study-notes/back-end/redis/7f7d7d50/index.md)
+- [8.AOF重写机制](/rui-plume/study-notes/back-end/redis/af31da1d/index.md)
+- [3.RDB案例演示](/rui-plume/study-notes/back-end/redis/c6e8de23/index.md)
+- [2.RDB(Redis DataBase)](/rui-plume/study-notes/back-end/redis/d82aa22e/index.md)
+- [2.怎么玩](/rui-plume/study-notes/back-end/redis/35dbe736/index.md)
+- [1.redis事务介绍](/rui-plume/study-notes/back-end/redis/4ee41084/index.md)
+- [2.是什么](/rui-plume/study-notes/back-end/redis/6a32c403/index.md)
+- [1.Redis管道介绍](/rui-plume/study-notes/back-end/redis/7e301d78/index.md)
+- [1.Redis发布订阅介绍](/rui-plume/study-notes/back-end/redis/0fa3bb79/index.md)
+- [3.案例演示](/rui-plume/study-notes/back-end/redis/56996b69/index.md)
+- [2.Redis发布订阅常用命令](/rui-plume/study-notes/back-end/redis/e4227ef4/index.md)
+- [2.案例演示-配置文件](/rui-plume/study-notes/back-end/redis/27a5f521/index.md)
+- [1.Redis复制介绍](/rui-plume/study-notes/back-end/redis/3e216c32/index.md)
+- [4.复制原理和工作流程](/rui-plume/study-notes/back-end/redis/98c4060a/index.md)
+- [5.哨兵运行流程和选举原理](/rui-plume/study-notes/back-end/redis/2f819b88/index.md)
+- [3.sentinel通用配置及主从复制](/rui-plume/study-notes/back-end/redis/6f3a1f96/index.md)
+- [1.Redis哨兵基本介绍](/rui-plume/study-notes/back-end/redis/88a12808/index.md)
+- [4.哨兵监控节点异常](/rui-plume/study-notes/back-end/redis/b1989979/index.md)
+- [2.sentinel配置参数说明](/rui-plume/study-notes/back-end/redis/cfd5244c/index.md)
+- [1.Redis集群介绍](/rui-plume/study-notes/back-end/redis/04aaec58/index.md)
+- [6.主从容错切换迁移](/rui-plume/study-notes/back-end/redis/187ea9a9/index.md)
+- [4.3主3从Redis集群配置](/rui-plume/study-notes/back-end/redis/1e78a2cf/index.md)
+- [5.3主3从redis集群读写](/rui-plume/study-notes/back-end/redis/210c17a5/index.md)
+- [2.集群算法-分片-槽位slot](/rui-plume/study-notes/back-end/redis/36562d47/index.md)
+- [8.主从缩容案例](/rui-plume/study-notes/back-end/redis/a4ea9fe9/index.md)
+- [7.主从扩容案例](/rui-plume/study-notes/back-end/redis/b5ee1864/index.md)
+- [3.slot槽位映射方案](/rui-plume/study-notes/back-end/redis/f171f8bc/index.md)
+- [9.集群常用操作命令和CRC16算法分析](/rui-plume/study-notes/back-end/redis/f9e612c2/index.md)
+- [3.RedisTemplate连接集群](/rui-plume/study-notes/back-end/redis/035bc063/index.md)
+- [1.SpringBoot集成Redis简介](/rui-plume/study-notes/back-end/redis/a174f649/index.md)
+- [2.RedisTemplate](/rui-plume/study-notes/back-end/redis/f584ce57/index.md)
+
+### 阅读
+
+- [阅读](/rui-plume/read/index.md)
+- [《凡事要趁早》](/rui-plume/read/824f4eb0/index.md): 读《凡事要趁早》的笔记
+- [《甄嬛传》](/rui-plume/read/c70c10fc/index.md): 《甄嬛传》
+- [《知否》](/rui-plume/read/ee3c1852/index.md)
+- [《如懿传》](/rui-plume/read/a2bbb2cf/index.md): 《如懿传》
+- [《三体》](/rui-plume/read/1d92979a/index.md)
+
+### Others
+
+- [关于我](/rui-plume/aboutme/index.md)
+- [公告](/rui-plume/aboutme/content/index.md)
+- [友情链接](/rui-plume/aboutme/friends/index.md)
+- [备忘录](/rui-plume/aboutme/memo/index.md)
+- [Command-Line Interface](/rui-plume/cli/index.md)
+- [开源项目](/rui-plume/code-demo/index.md)
+- [后端Demo](/rui-plume/code-demo/back-end-code/index.md)
+- [前端Demo](/rui-plume/code-demo/front-end-code/index.md)
+- [中国程序员容易发音错误的单词](/rui-plume/cpwp/index.md)
+- [友链](/rui-plume/friendly-chain/index.md)
+- [导航](/rui-plume/navigation/index.md)
+- [AI 导航](/rui-plume/navigation/ai/index.md)
+- [其他](/rui-plume/other/index.md)
+- [备考](/rui-plume/preparation-exams/index.md)
+- [系列文章](/rui-plume/preparation-exams/IntermediateSoftwareDesigner/index.md)
+- [阅读](/rui-plume/read/f7lmjbus/index.md)
+- [PDF](/rui-plume/read/pdf.md)
+- [阅读](/rui-plume/read/zvim9xbc/index.md)
+- [站点导航](/rui-plume/sites-collect/index.md)
+- [公共](/rui-plume/study-notes/index.md)
+- [公共工具](/rui-plume/study-notes/index.md)
+- [面经目录](/rui-plume/study-notes/back-end/index.md)
+- [后端](/rui-plume/study-notes/back-end/index.md)
+- [ai](/rui-plume/study-notes/back-end/ai/index.md)
+- [python](/rui-plume/study-notes/back-end/python/x3qajl6s/index.md)
+- [Redis16个常见使用场景](/rui-plume/study-notes/back-end/redis/671121b4/index.md)
+- [Window下Redis的安装和部署详细图文教程（Redis的安装和可视化工具的使用）](/rui-plume/study-notes/back-end/redis/7ae363f0/index.md)
+- [看完这篇大总结，彻底掌握Redis的使用](/rui-plume/study-notes/back-end/redis/9bb15315/index.md)
+- [前端](/rui-plume/study-notes/front-end/index.md)
+- [javaScript](/rui-plume/study-notes/front-end/nrghnokr/index.md)
+- [html](/rui-plume/study-notes/front-end/pkcruvtr/index.md)
+- [VuePress 自定义修改内容宽度](/rui-plume/vuepress-custom-content-width/index.md): VuePress 自定义修改内容宽度
