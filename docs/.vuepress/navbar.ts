@@ -43,6 +43,12 @@ export default defineNavbarConfig([
                         activeMatch: '^/study-notes/back-end/ai/',
                         icon: 'logos:airbnb-icon',
                     },
+                    {
+                        text: '测试开发',
+                        link: '/study-notes/back-end/sdet/',
+                        activeMatch: '^/study-notes/back-end/sdet/',
+                        icon: 'logos:testlodge',
+                    },
                 ]
             },
             {
